@@ -7,7 +7,7 @@ public class Member {
 	}
 	
 	@Override
-	public boolean equals(Object obj) {//comments 동등 객체 비교
+	public boolean equals(Object obj) {//comments 동등 객체 비교2
 		if (obj instanceof Member) {
 			Member member = (Member)obj;
 			if(id.equals(member.id)) {
