@@ -34,6 +34,7 @@ public class CompareExample {
 			else return 1;*/
 			
 			return Integer.compare(o1.sno, o2.sno);
+			
 		}
 		
 	}
