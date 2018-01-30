@@ -1,6 +1,7 @@
 package chap11.sec03_exam04_thinclone;
 
 public class Member implements Cloneable{
+
 	public String id;
 	public String name;
 	public String password;
