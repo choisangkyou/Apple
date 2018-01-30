@@ -8,8 +8,9 @@ public class ExitExample {
 			@Override
 			public void checkExit(int status) {
 				if(status !=5) {
-					throw new SecurityException();
+					throw new SecurityException(); //예외처리.
 				}
+				System.out.println("정상종료");
 			}
 			
 			
@@ -22,7 +23,10 @@ public class ExitExample {
 			//jvm 종료 요청
 			Thread.sleep(500);
 			System.exit(i);
-			}catch (Exception e) {}
+			
+			}catch (Exception e) {
+				System.out.println("Security Exception 발생");
+			}
 		}
 
 	}
