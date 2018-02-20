@@ -17,7 +17,7 @@ public class CalenderExample {
 		String strWeek = null;
 		
 		switch(week) {
-		case Calendar.MONDAY:
+		case Calendar.MONDAY: //index 2
 			strWeek = "¿ù";
 			break;
 		case Calendar.TUESDAY:
@@ -35,7 +35,7 @@ public class CalenderExample {
 		case Calendar.SATURDAY:
 			strWeek = "Åä";
 			break;
-		case Calendar.SUNDAY:
+		case Calendar.SUNDAY://index 1
 			strWeek = "ÀÏ";
 			break;
 		default :
