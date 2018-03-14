@@ -19,7 +19,7 @@ public class ThreadNameExample {
 			e.printStackTrace();
 		}
 		ThreadB threadB = new ThreadB();
-		System.out.println("작업 스레드 이름:"+threadB.getName());
+		System.out.println("작업 스레드 이름:"+threadB.getName());                                                                                       000
 		threadB.start();
 		
 
