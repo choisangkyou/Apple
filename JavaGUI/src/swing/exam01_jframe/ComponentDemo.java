@@ -51,6 +51,7 @@ public class ComponentDemo extends JFrame{
 		JTextArea area = new JTextArea(30,20);
 		area.setText("이 영역에 원의 넓이를 \n 계산하는 과정이 나타납니다.");
 		area.setEditable(false);
+		//area.setBackground(Color.BLUE);
 		area.setForeground(Color.RED);
 		
 		panel.add(area);
